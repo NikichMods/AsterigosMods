@@ -1,0 +1,57 @@
+{
+  "importedAt": "2026-10-26T16:57:56.062888+00:00",
+  "version": "0.1.0",
+  "files": [
+    {
+      "path": "src/SoulsEnemyHUD/Scripts/main.lua",
+      "sha256": "dc4b98acf5197817066fc6df68ae28b863db07b980fb8fc82fbc916ef3c0fc01",
+      "acceptance": "User accepted in game before migration",
+      "historicalCommit": null
+    },
+    {
+      "path": "src/SoulsEnemyHUD/Scripts/policy.lua",
+      "sha256": "98c003f7ec48d34923809cb7cfefe089f3da1b4178492134ff86a7c02761e254",
+      "acceptance": "User accepted in game before migration",
+      "historicalCommit": null
+    },
+    {
+      "path": "src/CombatHUD/Scripts/main.lua",
+      "sha256": "63f4de5a4a59a4dd263a782d46ed194ccf1f89683cabfd45b7ba68445e8e8c30",
+      "acceptance": "User accepted in game before migration",
+      "historicalCommit": null
+    },
+    {
+      "path": "src/CombatHUD/Scripts/policy.lua",
+      "sha256": "d47eb701863875bfebee249d4514abaf06d004489b4e467a649bb2daea33a095",
+      "acceptance": "User accepted in game before migration",
+      "historicalCommit": null
+    },
+    {
+      "path": "z310_ProfileRender_2x_P.pak",
+      "sha256": "75e7144577253917f6da7312ef5e585b12fb728226a22b0938323751a6b555cd",
+      "component": "ProfileRender",
+      "acceptance": "User accepted in game; proprietary-derived payload stays local"
+    },
+    {
+      "path": "z310_ProfileRender_2x_P.ucas",
+      "sha256": "088b83bffa6ad620bc43944f07e93bcab639d6c726836c47c3dd2fa4032e4d3c",
+      "component": "ProfileRender",
+      "acceptance": "User accepted in game; proprietary-derived payload stays local"
+    },
+    {
+      "path": "z310_ProfileRender_2x_P.utoc",
+      "sha256": "49e4e4d2acda940ba70cfa3552d4c87a0ca1e2d599c107b9065adbe960284bd7",
+      "component": "ProfileRender",
+      "acceptance": "User accepted in game; proprietary-derived payload stays local"
+    },
+    {
+      "path": "z320_SubtitleSoftEdges_P.pak",
+      "sha256": "3a16c8ed2c01c4a0ba38399fc86889fb62c37a2d0287e09dd68270a20a245097",
+      "component": "SubtitleSoftEdges",
+      "acceptance": "User accepted in game; proprietary-derived payload stays local"
+    }
+  ],
+  "gameChanged": false,
+  "gameLaunched": false,
+  "knownIssue": "Boss has both overhead and main health bars; next task not implemented"
+}

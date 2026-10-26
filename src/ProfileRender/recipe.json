@@ -1,0 +1,21 @@
+{
+  "status": "Accepted local payload; portable rebuild not yet implemented",
+  "resources": [
+    "/Game/MainContent/Act/DressRoom_BP/DressRoomRenderTarget",
+    "/Game/MainContent/Act/DressRoom_BP/DressRoomRenderTarget_Dup"
+  ],
+  "originalSize": [
+    960,
+    1080
+  ],
+  "acceptedSize": [
+    1600,
+    1800
+  ],
+  "changedProperties": [
+    "SizeX",
+    "SizeY"
+  ],
+  "installedBasename": "z310_ProfileRender_2x_P",
+  "verification": "Independent CUE4Parse property comparison and retoc verify; see ignored local evidence"
+}
