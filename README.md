@@ -23,10 +23,10 @@ Developer checks: Python3, dependencies from requirements-test.txt, then `python
 
 ## Independent mod folders
 
-- [CombatHUD](mods/CombatHUD/README.md)
-- [SoulsEnemyHUD](mods/SoulsEnemyHUD/README.md)
-- [ProfileRender](mods/ProfileRender/README.md)
-- [SubtitleSoftEdges](mods/SubtitleSoftEdges/README.md)
-- [AnimationRate](mods/AnimationRate/README.md)
+- [CombatHUD](CombatHUD/README.md)
+- [SoulsEnemyHUD](SoulsEnemyHUD/README.md)
+- [ProfileRender](ProfileRender/README.md)
+- [SubtitleSoftEdges](SubtitleSoftEdges/README.md)
+- [AnimationRate](AnimationRate/README.md)
 
 Each folder owns its code or recipe, tests when available, requirements, status and VERSION. There is no mandatory all-in-one installation. For concurrent development use separate worktrees; see docs/WORKFLOW.md.

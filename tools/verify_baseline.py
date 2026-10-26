@@ -6,9 +6,9 @@ manifest=json.loads((root/'docs/BASELINE.json').read_text(encoding='utf-8'))
 game=Path(env['gameRoot'])
 for entry in manifest['files']:
     relative=entry['path']
-    if relative.startswith('mods/'):
+    if Path(relative).parts[0] in {'CombatHUD','SoulsEnemyHUD'}:
         source=root/relative
-        _,mod,_,name=Path(relative).parts
+        mod,_,name=Path(relative).parts
         installed=Path(env['ue4ssMods'])/mod/'Scripts'/name
         assert hashlib.sha256(source.read_bytes()).hexdigest()==entry['sha256'],relative
     else:

@@ -2,5 +2,13 @@
 *.lua text eol=lf
 *.py text eol=lf
 *.md text eol=lf
-mods/** -text
-mods/** whitespace=cr-at-eol
+CombatHUD/** -text
+CombatHUD/** whitespace=cr-at-eol
+SoulsEnemyHUD/** -text
+SoulsEnemyHUD/** whitespace=cr-at-eol
+ProfileRender/** -text
+ProfileRender/** whitespace=cr-at-eol
+SubtitleSoftEdges/** -text
+SubtitleSoftEdges/** whitespace=cr-at-eol
+AnimationRate/** -text
+AnimationRate/** whitespace=cr-at-eol

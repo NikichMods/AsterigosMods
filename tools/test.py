@@ -1,11 +1,11 @@
 from pathlib import Path
 import subprocess,sys
 root=Path(__file__).resolve().parents[1]
-known={p.name for p in (root/'mods').iterdir() if p.is_dir()}
+known={'CombatHUD','SoulsEnemyHUD','ProfileRender','SubtitleSoftEdges','AnimationRate'}
 selected=sys.argv[1:]
 if set(selected)-known:
     raise SystemExit('Unknown mod: '+', '.join(sorted(set(selected)-known)))
-tests=sorted(p for mod in selected or sorted(known) for p in (root/'mods'/mod/'tests').glob('*.py'))
+tests=sorted(p for mod in selected or sorted(known) for p in (root/mod/'tests').glob('*.py'))
 if not tests:
     raise SystemExit('No automated Python tests for this selection; inspect the mod documentation.')
 for test in tests:

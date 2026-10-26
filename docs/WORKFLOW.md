@@ -1,6 +1,6 @@
 # Work and verification
 
-Stable main initially imports exact accepted Lua bytes. Future changes feature/* or research/*, tests then exact candidate commit/hash, installation only with closed game, explicit user runtime acceptance before main. Each mods/<ModName>/VERSION owns its mod version; increment for changed handed payload, never overwrite an old numbered artifact. Historical v1..v7 names remain historical local identities, not retrospective semantic releases. No public release is part of bootstrap.
+Stable main initially imports exact accepted Lua bytes. Future changes feature/* or research/*, tests then exact candidate commit/hash, installation only with closed game, explicit user runtime acceptance before main. Each <ModName>/VERSION owns its mod version; increment for changed handed payload, never overwrite an old numbered artifact. Historical v1..v7 names remain historical local identities, not retrospective semantic releases. No public release is part of bootstrap.
 
 Tests: Python3 + requirements-test.txt, run python tools/test.py (all available tests), or python tools/test.py SoulsEnemyHUD for one mod. Source-path references were adapted for the new layout; runtime Lua files were not edited. Mock tests prove syntax, policies and API adaptation only, not real engine rendering. Local Lupa runtime is external and ignored. No new CI required to move already tested code; read CI_POLICY.md if adding it.
 
