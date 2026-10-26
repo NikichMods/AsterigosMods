@@ -6,6 +6,7 @@
 - [SubtitleSoftEdges](../SubtitleSoftEdges/docs/STATUS.md) — Мягкие края фоновой подложки субтитров.
 - [AnimationRate](../AnimationRate/docs/STATUS.md) — Настройка a.URO.Enable=0 для анимаций дальних врагов.
 
-Следующая задача: интерфейс босса в SoulsEnemyHUD, см. его STATUS.md. Пока не реализована. Установленная основа не менялась.
+Интерфейс босса SoulsEnemyHUD 0.2.0 реализован и принят локально; точная идентичность,
+проверенный охват и состояние продвижения принадлежат его STATUS.md.
 
 Общее окружение: DX11 и Smooth Motion; OptiScaler/Care Package отключены. Сейвы/достижения вне текущей разработки.

@@ -10,7 +10,7 @@ Interface and visual improvements for **Asterigos: Curse of the Stars**, tested 
 
 **Current availability:** source and development documentation; no packaged release yet. CombatHUD and SoulsEnemyHUD require external UE4SS v3.0.1-1181-g83330635 and its UEHelpers module. Asset-based components currently require local game resources and do not yet have a portable build pipeline. Game assets, fonts and third-party costume/texture mods are not included.
 
-**Known issue:** bosses currently receive both the stock boss bar and an overhead bar. Correcting this is the next planned change.
+**Boss HUD:** SoulsEnemyHUD 0.2.0 corrects duplicate boss bars and adds matching boss-bar colors and accumulated damage. See its [owned status](SoulsEnemyHUD/docs/STATUS.md) for tested identity, acceptance and promotion state.
 
 Developer checks: Python3, dependencies from requirements-test.txt, then `python tools/test.py`. These checks cover logic and mocked API integration, not actual game rendering or compatibility with other game builds.
 
