@@ -2,5 +2,5 @@
 *.lua text eol=lf
 *.py text eol=lf
 *.md text eol=lf
-src/** -text
-src/** whitespace=cr-at-eol
+mods/** -text
+mods/** whitespace=cr-at-eol

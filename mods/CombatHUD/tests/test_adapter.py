@@ -3,7 +3,7 @@ from pathlib import Path
 
 from lupa import LuaRuntime
 
-root=Path(__file__).resolve().parents[1]/"src/CombatHUD/Scripts"
+root=Path(__file__).resolve().parents[1]/"Scripts"
 lua=LuaRuntime(unpack_returned_tuples=True)
 lua.globals().policySource=(root/'policy.lua').read_text()
 lua.execute('''

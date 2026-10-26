@@ -2,7 +2,7 @@ from pathlib import Path
 import sys
 
 from lupa import LuaRuntime
-root=Path(__file__).resolve().parents[1]/"src/SoulsEnemyHUD/Scripts"
+root=Path(__file__).resolve().parents[1]/"Scripts"
 lua=LuaRuntime(unpack_returned_tuples=True)
 lua.execute('assert(load(...))',(root/'main.lua').read_text(encoding='utf-8'))
 policy=lua.execute((root/'policy.lua').read_text())

@@ -3,25 +3,25 @@
   "version": "0.1.0",
   "files": [
     {
-      "path": "src/SoulsEnemyHUD/Scripts/main.lua",
+      "path": "mods/SoulsEnemyHUD/Scripts/main.lua",
       "sha256": "dc4b98acf5197817066fc6df68ae28b863db07b980fb8fc82fbc916ef3c0fc01",
       "acceptance": "User accepted in game before migration",
       "historicalCommit": null
     },
     {
-      "path": "src/SoulsEnemyHUD/Scripts/policy.lua",
+      "path": "mods/SoulsEnemyHUD/Scripts/policy.lua",
       "sha256": "98c003f7ec48d34923809cb7cfefe089f3da1b4178492134ff86a7c02761e254",
       "acceptance": "User accepted in game before migration",
       "historicalCommit": null
     },
     {
-      "path": "src/CombatHUD/Scripts/main.lua",
+      "path": "mods/CombatHUD/Scripts/main.lua",
       "sha256": "63f4de5a4a59a4dd263a782d46ed194ccf1f89683cabfd45b7ba68445e8e8c30",
       "acceptance": "User accepted in game before migration",
       "historicalCommit": null
     },
     {
-      "path": "src/CombatHUD/Scripts/policy.lua",
+      "path": "mods/CombatHUD/Scripts/policy.lua",
       "sha256": "d47eb701863875bfebee249d4514abaf06d004489b4e467a649bb2daea33a095",
       "acceptance": "User accepted in game before migration",
       "historicalCommit": null

@@ -1,11 +1,9 @@
-# Принятые требования
+# Требования по модам
 
-CombatHUD: только визуальная прозрачность нижних панелей; в бою1.0, вне боя0.20; exitDelay1.5; fadeSeconds1.0. При паузе игровое время не идёт. Не менять характеристики/управление.
+- [CombatHUD](../mods/CombatHUD/docs/REQUIREMENTS.md)
+- [SoulsEnemyHUD](../mods/SoulsEnemyHUD/docs/REQUIREMENTS.md)
+- [ProfileRender](../mods/ProfileRender/docs/REQUIREMENTS.md)
+- [SubtitleSoftEdges](../mods/SubtitleSoftEdges/docs/REQUIREMENTS.md)
+- [AnimationRate](../mods/AnimationRate/docs/REQUIREMENTS.md)
 
-SoulsEnemyHUD: width=90, height=7; ширина round_even(clamp(90*(MaxHP/252)^0.25,68,134)). 252 — фиксированный выбранный ориентир, не классификатор врагов. HP RGBA linear(.34,.0385,.038,1), trail(.65,.42,.12,1), штатные ProgressBar brushes. Показ при захвате или3с после урона; fadeIn.12/fadeOut.3, trailHold.45/trailFade.5. Сумма фактических положительных потерь HP, comboWindow1.2; hold1.2/fade.3; лечение не урон, изменение MaxHP сбрасывает базу. Garamond SemiBold12, Default, чёрная обводка1, без тени/подложки. Точка захвата на теле; не менять AI/камеру/HP. Не менять штатную информацию о stamina.
-
-ProfileRender: оба RT1600×1800, прочие свойства штатные; принятый баланс качества/нагрузки, количественного профилирования нет. Не возвращаться к1920×2160 без согласования.
-
-SubtitleSoftEdges: только фон #Subtitle.CanControl; горизонтальный fade6% каждого края, вертикальный18%, центр alpha122/255. Текст и скрипты не маскировать. При замене Hud.html другими модами требуется объединение CSS.
-
-Требования для следующей правки босса — docs/CURRENT_STATE.md; не считать их уже реализованными.
+У каждого мода отдельная версия и самостоятельная поставка. Общего обязательного набора нет.

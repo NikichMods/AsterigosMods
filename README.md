@@ -19,3 +19,14 @@ Developer checks: Python3, dependencies from requirements-test.txt, then `python
 - [Verified runtime findings](docs/VERIFIED_RUNTIME.md)
 - [Development and installation workflow](docs/WORKFLOW.md)
 - [License scope](LICENSING.md) — original code under MPL-2.0.
+
+
+## Independent mod folders
+
+- [CombatHUD](mods/CombatHUD/README.md)
+- [SoulsEnemyHUD](mods/SoulsEnemyHUD/README.md)
+- [ProfileRender](mods/ProfileRender/README.md)
+- [SubtitleSoftEdges](mods/SubtitleSoftEdges/README.md)
+- [AnimationRate](mods/AnimationRate/README.md)
+
+Each folder owns its code or recipe, tests when available, requirements, status and VERSION. There is no mandatory all-in-one installation. For concurrent development use separate worktrees; see docs/WORKFLOW.md.
