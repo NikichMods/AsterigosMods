@@ -8,4 +8,4 @@ Installation: use local environment paths, inspect process state and installed i
 
 ProfileRender and subtitle currently have accepted local payloads and historical build scripts/evidence under .local. Profile historical patch-targets.py defaults to1920×2160 and must NOT be used as a1600×1800 builder. A portable parameterized build recipe remains pending before changing/releasing those assets. No false claim of clean fully reproducible asset builds.
 
-One active writer per checkout; new chat reads AGENTS.md, current docs, Git state and actual files. A chat is not the source of truth. GitHub private sync provides off-machine backup of tracked source/docs only; ignored local evidence/assets need their separate local archive.
+One active writer per checkout; new chat reads AGENTS.md, current docs, Git state and actual files. A chat is not the source of truth. GitHub synchronization provides off-machine backup of tracked source/docs only; ignored local evidence/assets need their separate local archive.

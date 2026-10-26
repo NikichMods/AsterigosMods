@@ -1,13 +1,21 @@
 # AsterigosMods
 
-Собственные небольшие исправления интерфейса и визуального поведения Asterigos: Curse of the Stars. Перенесены из локальной работы 24–26 октября 2026 года. Установленная игра при переносе не менялась.
+Interface and visual improvements for **Asterigos: Curse of the Stars**, tested locally with Steam1.09/build12996889 on Windows x64 (UE4.27).
 
-Компоненты: CombatHUD (приглушение панелей вне боя), SoulsEnemyHUD (компактные HP/маркер/сумма урона), SubtitleSoftEdges (мягкие края субтитров), ProfileRender (размер двух буферов портрета). Исправление анимации дальних врагов — настройка Engine.ini. Готовые чужие костюмы/4K-паки не являются исходниками этого проекта.
+- **CombatHUD:** lower HUD panels fade to20% opacity outside combat and return to full visibility in combat, with one-second transitions.
+- **SoulsEnemyHUD:** compact enemy health bars, a separate lock-on dot and accumulated damage numbers using EB Garamond. Native large floating damage numbers are suppressed.
+- **SubtitleSoftEdges:** soft fading edges for the controllable dialogue backdrop.
+- **ProfileRender:** documented1600×1800 portrait render-target settings.
+- **AnimationRate:** Engine.ini setting used to improve distant enemy animation updates.
 
-- [Текущее состояние и следующая задача](docs/CURRENT_STATE.md)
-- [Принятые требования](docs/REQUIREMENTS.md)
-- [Подтверждённые особенности игры](docs/VERIFIED_RUNTIME.md)
-- [Проверки и установка](docs/WORKFLOW.md)
-- [Происхождение и права](LICENSING.md)
+**Current availability:** source and development documentation; no packaged release yet. CombatHUD and SoulsEnemyHUD require external UE4SS v3.0.1-1181-g83330635 and its UEHelpers module. Asset-based components currently require local game resources and do not yet have a portable build pipeline. Game assets, fonts and third-party costume/texture mods are not included.
 
-Python 3 + lupa==2.8; python tools/test.py. Тесты проверяют политики и строгие имитации API, не заменяя игру. Фактически использованный интерпретатор и локальные зависимости — в игнорируемом .local/environment.json. Исходники Lua соответствуют установленным байтам; копирование не означает новую приёмку всей игры. Известный дефект основы: у босса одновременно верхняя и маленькая HP-полоски. Следующая задача — их согласовать.
+**Known issue:** bosses currently receive both the stock boss bar and an overhead bar. Correcting this is the next planned change.
+
+Developer checks: Python3, dependencies from requirements-test.txt, then `python tools/test.py`. These checks cover logic and mocked API integration, not actual game rendering or compatibility with other game builds.
+
+- [Current state](docs/CURRENT_STATE.md)
+- [Adopted behavior](docs/REQUIREMENTS.md)
+- [Verified runtime findings](docs/VERIFIED_RUNTIME.md)
+- [Development and installation workflow](docs/WORKFLOW.md)
+- [License scope](LICENSING.md) — original code under MPL-2.0.
