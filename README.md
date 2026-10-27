@@ -9,7 +9,7 @@ Interface and visual improvements for **Asterigos: Curse of the Stars**, tested 
 - **AnimationRate:** Engine.ini setting used to improve distant enemy animation updates.
 - **Immersive Interaction Prompts (research):** planned Aphes-world lettering above readable localized interaction actions.
 
-**Current availability:** [CombatHUD 0.2.0 download](https://github.com/NikichMods/AsterigosMods/releases/tag/CombatHUD-v0.2.0). Other components provide source/development documentation; their owned status pages record acceptance and packaging availability. CombatHUD and SoulsEnemyHUD require external UE4SS v3.0.1-1181-g83330635 and its UEHelpers module. Asset-based components currently require local game resources and do not yet have a portable build pipeline. Game assets, fonts and third-party costume/texture mods are not included.
+**Current availability:** [accepted CombatHUD 0.2.0 source](https://github.com/NikichMods/AsterigosMods/tree/CombatHUD-v0.2.0/CombatHUD); its verified ZIP is prepared locally, with public package publication pending. Other components provide source/development documentation; their owned status pages record acceptance and packaging availability. CombatHUD and SoulsEnemyHUD require external UE4SS v3.0.1-1181-g83330635 and its UEHelpers module. Asset-based components currently require local game resources and do not yet have a portable build pipeline. Game assets, fonts and third-party costume/texture mods are not included.
 
 **Boss HUD:** SoulsEnemyHUD 0.2.0 corrects duplicate boss bars and adds matching boss-bar colors and accumulated damage. See its [owned status](SoulsEnemyHUD/docs/STATUS.md) for tested identity, acceptance and promotion state.
 
