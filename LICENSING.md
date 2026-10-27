@@ -36,6 +36,10 @@ The narrow unresolved question is permission to distribute a free same-game UI
 mod containing a complete modified `Genesis/Content/uiresources/Hud.html`, without
 other game resources or fonts. [Steam's official support listing](https://help.steampowered.com/en/wizard/HelpWithGameTechnicalIssue?appid=1731070)
 provides an Acme Gamestudio contact for clarification. No inquiry was sent.
+The user explicitly declined contacting the developers on 2026-10-27. Do not
+treat such an inquiry as a pending task or a required next step. This decision
+does not establish rights-holder permission or itself authorize publishing a
+package; distribution remains a separate user decision.
 No new installer architecture is adopted by this research; public host-derived
 packaging remains uncleared. Source publication and accepted runtime behavior
 are unchanged. The current local combined subtitle/boss HTML is documented in
