@@ -7,3 +7,4 @@
 - [AnimationRate](../AnimationRate/docs/REQUIREMENTS.md)
 
 У каждого мода отдельная версия и самостоятельная поставка. Общего обязательного набора нет.
+- [Immersive Interaction Prompts](../ImmersiveInteractionPrompts/docs/REQUIREMENTS.md) — согласованная цель, пока без доказанного механизма.

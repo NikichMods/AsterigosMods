@@ -10,3 +10,4 @@
 проверенный охват и состояние продвижения принадлежат его STATUS.md.
 
 Общее окружение: DX11 и Smooth Motion; OptiScaler/Care Package отключены. Сейвы/достижения вне текущей разработки.
+- [Immersive Interaction Prompts](../ImmersiveInteractionPrompts/docs/STATUS.md) — только дизайн и техническое исследование; без runtime-кода и установочного пакета.

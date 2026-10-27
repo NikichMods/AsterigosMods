@@ -7,6 +7,7 @@ Interface and visual improvements for **Asterigos: Curse of the Stars**, tested 
 - **SubtitleSoftEdges:** soft fading edges for the controllable dialogue backdrop.
 - **ProfileRender:** documented1600×1800 portrait render-target settings.
 - **AnimationRate:** Engine.ini setting used to improve distant enemy animation updates.
+- **Immersive Interaction Prompts (research):** planned Aphes-world lettering above readable localized interaction actions.
 
 **Current availability:** source and development documentation; no packaged release yet. CombatHUD and SoulsEnemyHUD require external UE4SS v3.0.1-1181-g83330635 and its UEHelpers module. Asset-based components currently require local game resources and do not yet have a portable build pipeline. Game assets, fonts and third-party costume/texture mods are not included.
 
@@ -28,5 +29,6 @@ Developer checks: Python3, dependencies from requirements-test.txt, then `python
 - [ProfileRender](ProfileRender/README.md)
 - [SubtitleSoftEdges](SubtitleSoftEdges/README.md)
 - [AnimationRate](AnimationRate/README.md)
+- [Immersive Interaction Prompts](ImmersiveInteractionPrompts/README.md) — design and UI-owner research; no build yet.
 
 Each folder owns its code or recipe, tests when available, requirements, status and VERSION. There is no mandatory all-in-one installation. For concurrent development use separate worktrees; see docs/WORKFLOW.md.
