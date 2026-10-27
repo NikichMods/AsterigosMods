@@ -1,6 +1,6 @@
 # Asterigos repository split — verified plan (2026-10-27)
 
-Status: **authorized migration, not yet completed**. This is an operational migration plan, not a new owner of any mod's product status. The original `AsterigosMods` remains the canonical repository until each new destination is populated, checked and linked. Never mark it archived merely because a destination name has been reserved.
+Status: **migration completed 2026-10-28**. This is an operational migration plan, not a new owner of any mod's product status. The independent mod repositories now own current work; original source/evidence remains accessible here. All six destinations were populated, checked and linked before cutover. Never mark it archived merely because a destination name has been reserved.
 
 ## Target and baseline
 
@@ -37,3 +37,22 @@ Published old source tags and Release assets are **historical stable URLs**. Nev
 ## Stop conditions and reporting
 
 Stop before overwriting an active working checkout, pushing third-party/game material, changing a production payload, republishing an old version with new bytes, losing an unresolved branch, or claiming complete migration without ignored-data verification. Report repo/branch/head, imported tree and file-hash comparisons, isolated test status, exact outstanding local evidence, provenance/tag/release links and new commit SHAs for each independent mod. No runtime relaunch or gameplay acceptance is part of this migration.
+
+## Verified execution result — 2026-10-28
+
+History was extracted using git subtree split in an isolated source copy. Every module file matched the original Git blob before adaptation; production Lua, UI/CSS, recipe/ini and VERSION remained exact. Full per-file provenance and independent checks live in each new repository's docs/IMPORT_PROVENANCE.json, docs/MIGRATION.md and docs/VALIDATION.md.
+
+| Current repository | Verified main revision |
+| --- | --- |
+| [CombatHUD](https://github.com/NikichMods/CombatHUD) | [`0f7572ff40753214a270eba17e125e0aedc3167d`](https://github.com/NikichMods/CombatHUD/commit/0f7572ff40753214a270eba17e125e0aedc3167d) |
+| [SoulsEnemyHUD](https://github.com/NikichMods/SoulsEnemyHUD) | [`32fca0b7833e62dfb21b809e826adb366fbc91d1`](https://github.com/NikichMods/SoulsEnemyHUD/commit/32fca0b7833e62dfb21b809e826adb366fbc91d1) |
+| [SubtitleSoftEdges](https://github.com/NikichMods/SubtitleSoftEdges) | [`7f7a65fd435b72192501e9b47e391adb3bf27eac`](https://github.com/NikichMods/SubtitleSoftEdges/commit/7f7a65fd435b72192501e9b47e391adb3bf27eac) |
+| [ProfileRender](https://github.com/NikichMods/ProfileRender) | [`d295ad78604a65f2e4f882452f35fde7cc0fd09c`](https://github.com/NikichMods/ProfileRender/commit/d295ad78604a65f2e4f882452f35fde7cc0fd09c) |
+| [AnimationRate](https://github.com/NikichMods/AnimationRate) | [`33b87b499934c289f8164e20a1b27d65f6922816`](https://github.com/NikichMods/AnimationRate/commit/33b87b499934c289f8164e20a1b27d65f6922816) |
+| [ImmersiveInteractionPrompts](https://github.com/NikichMods/ImmersiveInteractionPrompts) | [`0db203443a333e70beadd57ddfc08963559e1ac2`](https://github.com/NikichMods/ImmersiveInteractionPrompts/commit/0db203443a333e70beadd57ddfc08963559e1ac2) |
+
+All 12 preserved branch heads were pushed and fetched with exact SHA verification. Existing original branches/tags were retained; only this documentation cutover advances original main. No new semantic tags or Releases were created. Original CombatHUD public ZIP/checksum downloads were reverified by SHA-256. SoulsEnemyHUD 0.3.0 remains unaccepted feature work; interaction-prompt research remains BLOCKED on its research branch.
+
+Local data was COPY-verified: 2,622 file copies, complete original .local backup and a verified Git bundle covering all original refs/checkpoints. The original full historical archive, four working trees and their Git states stayed intact. Hash verification covered the 1,806-file historical archive and the captured installed mod/pak/settings/save files. The local game group has no parent Git repository. Private paths/manifests and host resources remain outside public Git.
+
+Independent checks passed for all six repos and all 12 preserved branches. CombatHUD and SoulsEnemyHUD Lua/JS and existing research safety tests passed; recipe/fragment/research-only repos have no executable runtime suite and were checked statically without claiming new runtime acceptance. No accepted pak was rebuilt and no game file was changed. Portable proprietary asset packaging remains unproven; existing publication deferrals remain in force.

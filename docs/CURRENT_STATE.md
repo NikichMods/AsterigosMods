@@ -1,13 +1,5 @@
-# Состояние проекта
+# Historical repository navigation
 
-- [CombatHUD 0.2.0](../CombatHUD/docs/STATUS.md) — принятая стабильная версия в main, тег CombatHUD-v0.2.0 опубликован; [GitHub Release](https://github.com/NikichMods/AsterigosMods/releases/tag/CombatHUD-v0.2.0) опубликован, скачивание ZIP и хешей проверено: независимая HP/предметная яркость и раскрытие при уроне. Откат 0.1.0 сохранён; чаровиты/input switching проверяем после естественного открытия.
-- [SoulsEnemyHUD](../SoulsEnemyHUD/docs/STATUS.md) — Компактные полоски противников, маркер захвата и суммирующийся урон.
-- [ProfileRender](../ProfileRender/docs/STATUS.md) — Разрешение Хильды в меню профиля: два буфера1600×1800.
-- [SubtitleSoftEdges](../SubtitleSoftEdges/docs/STATUS.md) — Мягкие края фоновой подложки субтитров.
-- [AnimationRate](../AnimationRate/docs/STATUS.md) — Настройка a.URO.Enable=0 для анимаций дальних врагов.
+The organizational split is complete. [README.md](../README.md) links the six independent source owners; [REPOSITORY_SPLIT_PLAN.md](REPOSITORY_SPLIT_PLAN.md) retains the exact migration plan and result. [Asterigos-Research](https://github.com/NikichMods/Asterigos-Research/blob/main/docs/RESEARCH_INDEX.md) owns shared host knowledge.
 
-Интерфейс босса SoulsEnemyHUD 0.2.0 реализован и принят локально; точная идентичность,
-проверенный охват и состояние продвижения принадлежат его STATUS.md.
-
-Общее окружение: DX11 и Smooth Motion; OptiScaler/Care Package отключены. Сейвы/достижения вне текущей разработки.
-- [Immersive Interaction Prompts](../ImmersiveInteractionPrompts/docs/STATUS.md) — только дизайн и техническое исследование; без runtime-кода и установочного пакета.
+Source trees and original evidence here remain historical. No new runtime acceptance, feature, accepted-version rebuild or game installation occurred during migration. Existing tags, Releases and download URLs are retained unchanged; the repository is not archived.

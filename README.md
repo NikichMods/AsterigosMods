@@ -1,34 +1,18 @@
-# AsterigosMods
+# AsterigosMods — historical source
 
-Interface and visual improvements for **Asterigos: Curse of the Stars**, tested locally with Steam1.09/build12996889 on Windows x64 (UE4.27).
+The game now uses one independent repository per mod and one shared [Asterigos-Research](https://github.com/NikichMods/Asterigos-Research), starting at [docs/RESEARCH_INDEX.md](https://github.com/NikichMods/Asterigos-Research/blob/main/docs/RESEARCH_INDEX.md).
 
-- **CombatHUD 0.2.0:** lower HUD fades to 20% outside combat; damage reveals it immediately, and health plus all three quick-item slots stay bright while HP is incomplete. One-second transitions and native menu hiding are preserved.
-- **SoulsEnemyHUD:** compact enemy health bars, a separate lock-on dot and accumulated damage numbers using EB Garamond. Native large floating damage numbers are suppressed.
-- **SubtitleSoftEdges:** soft fading edges for the controllable dialogue backdrop.
-- **ProfileRender:** documented1600×1800 portrait render-target settings.
-- **AnimationRate:** Engine.ini setting used to improve distant enemy animation updates.
-- **Immersive Interaction Prompts (research):** planned Aphes-world lettering above readable localized interaction actions.
+| Current source owner | Verified import revision |
+| --- | --- |
+| [CombatHUD](https://github.com/NikichMods/CombatHUD) | [`0f7572ff40753214a270eba17e125e0aedc3167d`](https://github.com/NikichMods/CombatHUD/commit/0f7572ff40753214a270eba17e125e0aedc3167d) |
+| [SoulsEnemyHUD](https://github.com/NikichMods/SoulsEnemyHUD) | [`32fca0b7833e62dfb21b809e826adb366fbc91d1`](https://github.com/NikichMods/SoulsEnemyHUD/commit/32fca0b7833e62dfb21b809e826adb366fbc91d1) |
+| [SubtitleSoftEdges](https://github.com/NikichMods/SubtitleSoftEdges) | [`7f7a65fd435b72192501e9b47e391adb3bf27eac`](https://github.com/NikichMods/SubtitleSoftEdges/commit/7f7a65fd435b72192501e9b47e391adb3bf27eac) |
+| [ProfileRender](https://github.com/NikichMods/ProfileRender) | [`d295ad78604a65f2e4f882452f35fde7cc0fd09c`](https://github.com/NikichMods/ProfileRender/commit/d295ad78604a65f2e4f882452f35fde7cc0fd09c) |
+| [AnimationRate](https://github.com/NikichMods/AnimationRate) | [`33b87b499934c289f8164e20a1b27d65f6922816`](https://github.com/NikichMods/AnimationRate/commit/33b87b499934c289f8164e20a1b27d65f6922816) |
+| [ImmersiveInteractionPrompts](https://github.com/NikichMods/ImmersiveInteractionPrompts) | [`0db203443a333e70beadd57ddfc08963559e1ac2`](https://github.com/NikichMods/ImmersiveInteractionPrompts/commit/0db203443a333e70beadd57ddfc08963559e1ac2) |
 
-**Current availability:** [CombatHUD 0.2.0 download](https://github.com/NikichMods/AsterigosMods/releases/tag/CombatHUD-v0.2.0) — stable ZIP and SHA-256 checksums. Other components provide source/development documentation; their owned status pages record acceptance and packaging availability. CombatHUD and SoulsEnemyHUD require external UE4SS v3.0.1-1181-g83330635 and its UEHelpers module. Asset-based components currently require local game resources and do not yet have a portable build pipeline. Game assets, fonts and third-party costume/texture mods are not included.
+This repository remains accessible and unarchived as the original historical source. Existing source, feature/research branches, tags, Releases, accepted evidence and stable download URLs are retained. No published history was rewritten. Existing active local worktrees remain in place; new work belongs in the independent owning repository.
 
-**Boss HUD:** SoulsEnemyHUD 0.2.0 corrects duplicate boss bars and adds matching boss-bar colors and accumulated damage. See its [owned status](SoulsEnemyHUD/docs/STATUS.md) for tested identity, acceptance and promotion state.
+[CombatHUD 0.2.0 download](https://github.com/NikichMods/AsterigosMods/releases/tag/CombatHUD-v0.2.0) remains the exact original package; SoulsEnemyHUD installer publication remains deferred. Unaccepted 0.3.0 and interaction-prompt research remain separate branches in their owning repositories. No runtime acceptance or package rebuild was part of the split.
 
-Developer checks: Python3, dependencies from requirements-test.txt, then `python tools/test.py`. These checks cover logic and mocked API integration, not actual game rendering or compatibility with other game builds.
-
-- [Current state](docs/CURRENT_STATE.md)
-- [Adopted behavior](docs/REQUIREMENTS.md)
-- [Verified runtime findings](docs/VERIFIED_RUNTIME.md)
-- [Development and installation workflow](docs/WORKFLOW.md)
-- [License scope](LICENSING.md) — original code under MPL-2.0.
-
-
-## Independent mod folders
-
-- [CombatHUD](CombatHUD/README.md)
-- [SoulsEnemyHUD](SoulsEnemyHUD/README.md)
-- [ProfileRender](ProfileRender/README.md)
-- [SubtitleSoftEdges](SubtitleSoftEdges/README.md)
-- [AnimationRate](AnimationRate/README.md)
-- [Immersive Interaction Prompts](ImmersiveInteractionPrompts/README.md) — design and UI-owner research; no build yet.
-
-Each folder owns its code or recipe, tests when available, requirements, status and VERSION. There is no mandatory all-in-one installation. For concurrent development use separate worktrees; see docs/WORKFLOW.md.
+See [migration record](docs/REPOSITORY_SPLIT_PLAN.md); historical files remain evidence, not competing mutable owners.
