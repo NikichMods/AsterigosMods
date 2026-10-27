@@ -1,6 +1,6 @@
 # Состояние проекта
 
-- [CombatHUD](../CombatHUD/docs/STATUS.md) — Приглушение нижних панелей интерфейса вне боя.
+- [CombatHUD 0.2.0](../CombatHUD/docs/STATUS.md) — принятая стабильная версия в main и отдельном GitHub Release: независимая HP/предметная яркость и раскрытие при уроне. Откат 0.1.0 сохранён; чаровиты/input switching проверяем после естественного открытия.
 - [SoulsEnemyHUD](../SoulsEnemyHUD/docs/STATUS.md) — Компактные полоски противников, маркер захвата и суммирующийся урон.
 - [ProfileRender](../ProfileRender/docs/STATUS.md) — Разрешение Хильды в меню профиля: два буфера1600×1800.
 - [SubtitleSoftEdges](../SubtitleSoftEdges/docs/STATUS.md) — Мягкие края фоновой подложки субтитров.
