@@ -2,13 +2,13 @@
 
 Interface and visual improvements for **Asterigos: Curse of the Stars**, tested locally with Steam1.09/build12996889 on Windows x64 (UE4.27).
 
-- **CombatHUD:** lower HUD panels fade to20% opacity outside combat and return to full visibility in combat, with one-second transitions.
+- **CombatHUD 0.2.0:** lower HUD fades to 20% outside combat; damage reveals it immediately, and health plus all three quick-item slots stay bright while HP is incomplete. One-second transitions and native menu hiding are preserved.
 - **SoulsEnemyHUD:** compact enemy health bars, a separate lock-on dot and accumulated damage numbers using EB Garamond. Native large floating damage numbers are suppressed.
 - **SubtitleSoftEdges:** soft fading edges for the controllable dialogue backdrop.
 - **ProfileRender:** documented1600×1800 portrait render-target settings.
 - **AnimationRate:** Engine.ini setting used to improve distant enemy animation updates.
 
-**Current availability:** source and development documentation; no packaged release yet. CombatHUD and SoulsEnemyHUD require external UE4SS v3.0.1-1181-g83330635 and its UEHelpers module. Asset-based components currently require local game resources and do not yet have a portable build pipeline. Game assets, fonts and third-party costume/texture mods are not included.
+**Current availability:** [CombatHUD 0.2.0 download](https://github.com/NikichMods/AsterigosMods/releases/tag/CombatHUD-v0.2.0). Other components provide source/development documentation; their owned status pages record acceptance and packaging availability. CombatHUD and SoulsEnemyHUD require external UE4SS v3.0.1-1181-g83330635 and its UEHelpers module. Asset-based components currently require local game resources and do not yet have a portable build pipeline. Game assets, fonts and third-party costume/texture mods are not included.
 
 **Boss HUD:** SoulsEnemyHUD 0.2.0 corrects duplicate boss bars and adds matching boss-bar colors and accumulated damage. See its [owned status](SoulsEnemyHUD/docs/STATUS.md) for tested identity, acceptance and promotion state.
 

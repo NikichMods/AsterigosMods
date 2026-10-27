@@ -12,7 +12,7 @@ Recovery entry points:
 - `CombatHUD/Scripts/`, `CombatHUD/tests/`, `CombatHUD/VERSION` — source, tests and canonical component version.
 - `docs/BASELINE.json` — imported accepted payload identity.
 
-Shared host research: `docs/VERIFIED_RUNTIME.md` in this repository. Component-specific findings belong in `CombatHUD/docs/VERIFIED_RUNTIME.md`.
+Shared host research: canonical `NikichMods/Asterigos-Research/docs/RESEARCH_INDEX.md`, with this repository's `docs/VERIFIED_RUNTIME.md` as originating evidence/index. Component-specific findings belong in `CombatHUD/docs/VERIFIED_RUNTIME.md`. Current accepted version and deferred checks are owned by CombatHUD/docs/STATUS.md; do not infer them from old chat summaries.
 
 Project-specific execution constraints:
 - Work primarily in ordinary ChatGPT through GitHub; use local Codex only when remote tools cannot reliably establish or implement the needed behavior. GitHub Actions may be introduced under `CI_POLICY.md` when a meaningful remote test/build can be implemented.
